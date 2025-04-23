@@ -165,22 +165,39 @@
 // myBike.move();
 // myBike.doWheelie();
 
-//PROTOTYPES->A prototype is the mechanism in JavaScript that makes it possible to have objects.When nothing is specified when creating a class, the objects inherit from the object.prototype prototype.
+//PROTOTYPES->A prototype is the mechanism in JavaScript that makes it possible to have objects.When nothing is specified when creating a class, the objects inherit from the Object.prototype prototype.
 
-class Person {
-    constructor(firstname, lastname) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-    }
-    greet() {
-        console.log("Hi there! I'm", this.firstname);
-    }
-    introduce() {
-        console.log("Hi, I'm", this.firstname);
-    }
-}
-Person.prototype.favoriteColor = "green";
+// class Person {
+//     constructor(firstname, lastname) {
+//         this.firstname = firstname;
+//         this.lastname = lastname;
+//     }
+//     greet() {
+//         console.log("Hi there! I'm", this.firstname);
+//     }
+//     introduce() {
+//         console.log("Hi, I'm", this.firstname);
+//     }
+// }
+// Person.prototype.favoriteColor = "green";
 
-let p = new Person("Krishan Kant", "Jha");
-console.log(p.favoriteColor);
-p.introduce();
+// let p = new Person("Krishan Kant", "Jha");
+// console.log(p.favoriteColor);
+// p.introduce();
+
+// class Person {
+//     constructor(firstname, lastname) {
+//       this.firstname = firstname;
+//       this.lastname = lastname;
+//     }
+//     greet() {
+//       console.log("Hi there! I'm", this.firstname);
+//     }
+//   }
+//   Person.prototype.introduce = function() {
+//     console.log("Hi, I'm " + this.firstname);
+//   };
+//   let p = new Person("Krishan Kant", "Jha");
+//   console.log(p.favoriteColor);
+//   p.introduce();
+  
